@@ -1,5 +1,7 @@
 class HelloWorld
+  # comments
   def self.hello
-    "Goodbye, Mars!"
+    "Hello, World!"
   end
+
 end
