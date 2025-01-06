@@ -5,8 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
 ## [UNREALEASED] - 2024-01-06
+### Added
 - README.md
 - CHANGELOG.md
-- ruby exercises provided by [exercism](https://exercism.org)
-
+- Exercises by [exercism](https://exercism.org): 
+    - `ruby`:
+        - `hello-world/`
+            - `notes.md` 
  
