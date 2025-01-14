@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
             - `notes.md`
         - `lasagna/`
             - `notes.md`
+        - `annalyns-infiltration/`
+            - `notes.md`
     - `ruby`: 
         - `hello-world/`
             - `notes.md`
