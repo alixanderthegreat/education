@@ -4,12 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-01-10
+## [UNREALEASED] - 2024-01-13
 ### Added
 - README.md
 - CHANGELOG.md
-- Exercises by [exercism](https://exercism.org): 
-    - `ruby`: // folders contain all exercism materials, notes are original additions
+- Exercises by [exercism](https://exercism.org); folders contain all exercism materials, notes are original additions
+    - `go`:
+        - `hello-world/`
+            -`notes.md`
+    - `ruby`: 
         - `hello-world/`
             - `notes.md`
         - `lasagna/`
@@ -18,4 +21,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
             - `notes.md`
         - `two-fer/`
             - `notes.md`
+    
  
