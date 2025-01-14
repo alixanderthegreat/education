@@ -11,7 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Exercises by [exercism](https://exercism.org); folders contain all exercism materials, notes are original additions
     - `go`:
         - `hello-world/`
-            -`notes.md`
+            - `notes.md`
+        - `lasagna/`
+            - `notes.md`
     - `ruby`: 
         - `hello-world/`
             - `notes.md`
