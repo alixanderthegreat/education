@@ -1,8 +1,13 @@
 // Package weather ...
 package weather
 
-var CurrentCondition string
-var CurrentLocation string
+var (
+	// CurrentCondition ...
+	CurrentCondition string
+
+	// CurrentLocation ...
+	CurrentLocation string
+)
 
 func Forecast(city, condition string) string {
 	CurrentLocation, CurrentCondition = city, condition
