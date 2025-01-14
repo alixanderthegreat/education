@@ -1,1 +1,5 @@
 The use of boolean operators is not really something that I deal with very often. I mean, yes, I do deal in what is `true` and what is `false`, but I don't build functions for the purpose of returning a boolean operator. For the most part, the kinds of functions that I find my self writing take data of one type and return the same type, but changed; or, take one type and make a new type or set some type. I can understand that it would be easier in some contexts (particularlly a game) where quickly dtermining if this or that can be done based on some other params... Anyway, I don't particularly have a lot to say on this at the moment - I will need to allow these thoughts to stew.  
+
+Well, it seems like I need to remember that tests are there for a reason, they are meant to tell you that you have failed. And just because `-v` shows you a lot of `PASS` signals, doesn't mean you have. A helpful tool here is to end the test at exactly where you have failed with `-failfast`.
+
+It also makes sense to start using atomic commits to ensure better speed moving forward. 
