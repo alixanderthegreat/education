@@ -2,4 +2,4 @@ The use of boolean operators is not really something that I deal with very often
 
 Well, it seems like I need to remember that tests are there for a reason, they are meant to tell you that you have failed. And just because `-v` shows you a lot of `PASS` signals, doesn't mean you have. A helpful tool here is to end the test at exactly where you have failed with `-failfast`.
 
-It also makes sense to start using atomic commits to ensure better speed moving forward. 
+It also makes sense to start using atomic commits to ensure better speed moving forward. The big mistake that I had made was using `||` instead of `&&` within `if the prisoner is awake and the other 2 characters are asleep`. Interesting 🤔.
