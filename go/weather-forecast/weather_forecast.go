@@ -1,3 +1,4 @@
+// Package weather ...
 package weather
 
 var CurrentCondition string
