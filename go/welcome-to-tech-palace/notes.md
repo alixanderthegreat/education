@@ -3,3 +3,5 @@ This was the first exercise where I actually went to the package to read the doc
 I imagine that it will be helpful to think a little more deeply about how to manipulate the immutable; I guess, now having said that, we can make copies of the immutable that are manipulated as we please. 🤓 
 
 It is nice to look over the test before beginning to see if there are commonalities as we proceed through the play. That way, we can establish some things at a higher level. 
+
+I don't use ToUpper/ToLower very often... 🤔 I'm sure that I have, and it is probably on account of having to make some uniformity in string stroage... Yeah, this is interesting. I will have to consider more cases for why this might be helpful in the future. 

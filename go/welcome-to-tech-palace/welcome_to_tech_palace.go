@@ -1,10 +1,12 @@
 package techpalace
 
+import "strings"
+
 const prefix = `Welcome to the Tech Palace, `
 
 // WelcomeMessage returns a welcome message for the customer.
 func WelcomeMessage(customer string) string {
-	panic("Please implement the WelcomeMessage() function")
+	return prefix + strings.ToUpper(customer)
 }
 
 // AddBorder adds a border to a welcome message.
