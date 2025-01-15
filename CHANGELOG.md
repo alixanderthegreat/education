@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
             - `notes.md`
         - `cars-assemble`
             - `notes.md`
+        - `welcome-to-tech-palace`
+            - `notes.md`
     - `ruby`: 
         - `hello-world/`
             - `notes.md`
