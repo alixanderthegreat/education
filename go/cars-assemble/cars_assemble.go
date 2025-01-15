@@ -3,7 +3,7 @@ package cars
 // CalculateWorkingCarsPerHour calculates how many working cars are
 // produced by the assembly line every hour.
 func CalculateWorkingCarsPerHour(productionRate int, successRate float64) float64 {
-	return successRate * float64(productionRate)
+	return float64(productionRate) * (successRate / 100)
 }
 
 // CalculateWorkingCarsPerMinute calculates how many working cars are
