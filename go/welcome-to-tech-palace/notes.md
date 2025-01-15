@@ -5,3 +5,5 @@ I imagine that it will be helpful to think a little more deeply about how to man
 It is nice to look over the test before beginning to see if there are commonalities as we proceed through the play. That way, we can establish some things at a higher level. 
 
 I don't use ToUpper/ToLower very often... 🤔 I'm sure that I have, and it is probably on account of having to make some uniformity in string stroage... Yeah, this is interesting. I will have to consider more cases for why this might be helpful in the future. 
+
+I am never quite sure how I want something to look when it is soooo simple. I mean, on the one hand, I am of the opinion that the more readable the code is the easier it is to maintain. However, I also know that the less lines of code to have to sift through the easier it is to maintain. And even still, I am never quite sure if it makes more sense to call on a function multiple times when 1 will perfectly suffice, as is the case with boarder. I imagine that if you know that the result could/might be different with each call, when you don't want the result to be different each time, it would make sense to call once. 
