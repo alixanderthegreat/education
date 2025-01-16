@@ -6,8 +6,8 @@ func NeedsLicense(kind string) (need bool) {
 }
 
 // ChooseVehicle recommends a vehicle for selection. It always recommends the vehicle that comes first in lexicographical order.
-func ChooseVehicle(option1, option2 string) string {
-	msg := " is clearly the better choice."
+func ChooseVehicle(option1, option2 string) (msg string) {
+	msg = " is clearly the better choice."
 	if option1 < option2 {
 		return option1 + msg
 	}
