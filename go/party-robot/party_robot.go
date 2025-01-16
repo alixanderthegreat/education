@@ -1,8 +1,12 @@
 package partyrobot
 
+import "fmt"
+
+var spf = fmt.Sprintf
+
 // Welcome greets a person by name.
 func Welcome(name string) string {
-	panic("Please implement the Welcome function")
+	return spf("Welcome to my party, %s!", name)
 }
 
 // HappyBirthday wishes happy birthday to the birthday person and exclaims their age.
