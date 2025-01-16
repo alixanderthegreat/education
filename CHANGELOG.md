@@ -18,13 +18,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
             - `notes.md`
         - `weather-forecast/`
             - `notes.md`
-        - `cars-assemble`
+        - `cars-assemble/`
             - `notes.md`
-        - `welcome-to-tech-palace`
+        - `welcome-to-tech-palace/`
             - `notes.md`
-        - `party-robot`
+        - `party-robot/`
             - `notes.md` 
-        - `vehicle-purchase`
+        - `vehicle-purchase/`
+            - `notes.md`
+        - `blackjack/`
             - `notes.md`
     - `ruby`: 
         - `hello-world/`
