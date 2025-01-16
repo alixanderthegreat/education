@@ -16,5 +16,11 @@ func HappyBirthday(name string, age int) string {
 
 // AssignTable assigns a table to each guest.
 func AssignTable(name string, table int, neighbor, direction string, distance float64) string {
-	panic("Please implement the AssignTable function")
+	var msg string
+	msg += "Welcome to my party, %s!\n"
+	msg += "You have been assigned to table %03d. "
+	msg += "Your table is %s, "
+	msg += "exactly %.1f meters from here.\n"
+	msg += "You will be sitting next to %s."
+	return spf(msg, name, table, direction, distance, neighbor)
 }

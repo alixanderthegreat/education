@@ -1,0 +1,3 @@
+I was acutally suprised by the problem having to do with the table number having leading zeroes. The first soltuion that I took in was an if else if else construction, but then... I thought, this would be a great place for a switch. I know that an if else series can be the most specific, and I understand that 'if you are using switchs for anything other than types, you are using it wrong...' is a mentality among my mentors; but not everything they say is right. At least, in the sense that there are many ways to boil the soup; yes, I know that some of them might be more upset that I am going against mentor's direction, but what gives? 🤷 Did the solution work?
+
+And then once I go and review... `%03d` I guess that would have been helpful to understand. 
