@@ -52,3 +52,5 @@ func ParseCard(card string) (value int) {
 I looked over the solution for a moment and thought, it would probably be better to just to `return map[string]int` directly; to which, when prompted, the bot said the same thing. I invited the bot to come up with some other methods for determine the `int` and it has some pretty wild ideas: `Pattern Matching with First Character`, `Length-based Categorization`, `Code-Cruncher Card Parser™`(trade marked?) and `recursive poetry parser`. All of these ideas seem beyond what a person would consider, in my opinion, when taking these lessons. 
 
 The point is to be learning about the `switch` and making various examples of `case`. 
+
+Oof... that was annoying. I can't believe that you have to build all those different cases... but I think it was fun to be able to refactor a little bit. 
