@@ -1,8 +1,30 @@
 package blackjack
 
 // ParseCard returns the integer value of a card following blackjack ruleset.
-func ParseCard(card string) int {
-	panic("Please implement the ParseCard function")
+func ParseCard(card string) (value int) {
+	switch card {
+	case "ace":
+		value = 11
+	case "two":
+		value = 2
+	case "three":
+		value = 3
+	case "four":
+		value = 4
+	case "five":
+		value = 5
+	case "six":
+		value = 6
+	case "seven":
+		value = 7
+	case "eight":
+		value = 8
+	case "nine":
+		value = 9
+	case "king", "queen", "jack", "ten":
+		value = 10
+	}
+	return
 }
 
 // FirstTurn returns the decision for the first turn, given two cards of the
