@@ -35,5 +35,4 @@ func RemoveItem(slice []int, index int) []int {
 		return slice
 	}
 	return append(slice[:index], slice[index+1:]...)
-
 }
