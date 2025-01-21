@@ -1,8 +1,14 @@
 package speed
 
 type (
-	Car   struct{}
-	Track struct{}
+	Car struct {
+		speed,
+		battery,
+		distance,
+		batteryDrain int
+	}
+	Track struct {
+	}
 )
 
 // NewCar creates a new remote controlled car with full battery and given specifications.
