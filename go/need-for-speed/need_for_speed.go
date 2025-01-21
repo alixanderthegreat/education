@@ -2,10 +2,7 @@ package speed
 
 type (
 	Car struct {
-		speed,
-		battery,
-		distance,
-		batteryDrain int
+		speed, battery, distance, batteryDrain int
 	}
 	Track struct {
 		distance int
