@@ -21,8 +21,6 @@ func NewCar(speed, batteryDrain int) Car {
 	}
 }
 
-// TODO: define the 'Track' type struct
-
 // NewTrack creates a new track
 func NewTrack(distance int) Track {
 	return Track{
@@ -35,12 +33,10 @@ func NewTrack(distance int) Track {
 func Drive(car Car) Car {
 	if car.battery < car.batteryDrain {
 		return car
-	}
-	return Car{
-		speed:        car.speed,
-		battery:      car.battery - car.batteryDrain,
-		distance:     car.distance + car.speed,
-		batteryDrain: car.batteryDrain,
+	} else {
+		car.battery -= car.batteryDrain
+		car.distance += car.speed
+		return car
 	}
 }
 

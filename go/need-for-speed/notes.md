@@ -1,0 +1,1 @@
+I feel like I am tremendously familiar with structs and at this point I feel like I have learned quite a bit. It is difficult to say if I really learned anything from this other than making sure that I took the time to refactor 
