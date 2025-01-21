@@ -13,7 +13,7 @@ type (
 )
 
 // NewCar creates a new remote controlled car with full battery and given specifications.
-func NewCar(speed, batteryDrain int) (car Car) {
+func NewCar(speed, batteryDrain int) Car {
 	return Car{
 		speed:        speed,
 		battery:      100,
