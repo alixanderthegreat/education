@@ -8,6 +8,7 @@ type (
 		batteryDrain int
 	}
 	Track struct {
+		distance int
 	}
 )
 
