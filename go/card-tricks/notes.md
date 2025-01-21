@@ -1,0 +1,1 @@
+It took some time to learn about the idea of 0th indexed items. I am not sure why that took so long to understand that the first `int` position of the index is the `origin`; which, counter-intuitive as it may seem, is the most logical position for the start of a list. Yes, it is the first/1st postion; but its index is at the origin. 
