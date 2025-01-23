@@ -32,6 +32,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
             - `notes.md`
         - `card-tricks/`
             - `notes.md`
+        - `animal-magic/`
+            - `notes.md`
     - `ruby`: 
         - `hello-world/`
             - `notes.md`
