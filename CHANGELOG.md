@@ -8,40 +8,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - README.md
 - CHANGELOG.md
-- Exercises by [exercism](https://exercism.org); folders contain all exercism materials, notes are original additions
+- Exercises by [exercism](https://exercism.org); note: _each folder includes `notes.md` which contain original commentary and analysis._
     - `go`:
         - `hello-world/`
-            - `notes.md`
         - `lasagna/`
-            - `notes.md`
         - `annalyns-infiltration/`
-            - `notes.md`
         - `weather-forecast/`
-            - `notes.md`
         - `cars-assemble/`
-            - `notes.md`
         - `welcome-to-tech-palace/`
-            - `notes.md`
-        - `party-robot/`
-            - `notes.md` 
+        - `party-robot/` 
         - `vehicle-purchase/`
-            - `notes.md`
         - `blackjack/`
-            - `notes.md`
         - `need-for-speed/`
-            - `notes.md`
         - `card-tricks/`
-            - `notes.md`
         - `animal-magic/`
-            - `notes.md`
     - `ruby`: 
         - `hello-world/`
-            - `notes.md`
         - `lasagna/`
-            - `notes.md`
         - `log-line-parser/`
-            - `notes.md`
         - `two-fer/`
-            - `notes.md`
     
- 
