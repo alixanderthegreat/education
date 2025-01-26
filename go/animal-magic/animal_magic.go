@@ -1,7 +1,6 @@
 package chance
 
 import (
-	"fmt"
 	"math/rand"
 )
 
@@ -24,7 +23,7 @@ func GenerateWandEnergy() float64 {
 			energy                    = random_float * desired_standard_devation * desired_mean
 		)
 		if energy > 0 && energy < 12.0 {
-			fmt.Println("iteration: ", i, " energy:", energy)
+			// fmt.Println("iteration: ", i, " energy:", energy)
 			return energy
 		}
 
@@ -33,5 +32,14 @@ func GenerateWandEnergy() float64 {
 
 // ShuffleAnimals returns a slice with all eight animal strings in random order.
 func ShuffleAnimals() []string {
-	panic("Please implement the ShuffleAnimals function")
+	animals := []string{
+		"ant", "beaver", "cat", "dog",
+		"elephant", "fox", "giraffe", "hedgehog",
+	}
+	n := len(animals)
+	swap := func(i, j int) {
+		animals[i], animals[j] = animals[j], animals[i]
+	}
+	rand.Shuffle(n, swap)
+	return animals
 }
