@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `need-for-speed/`
         - `card-tricks/`
         - `animal-magic/`
+        - `bird-watcher/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
