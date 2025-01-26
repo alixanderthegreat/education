@@ -9,3 +9,5 @@ rand.Shuffle(len(x), func(i, j int) {
 	x[i], x[j] = x[j], x[i]
 })
 ```
+
+After reviewing the community, I was suprised to find that Generate Wand energy is simply takin the upward bound 12... and then times it by a number between 0.0 -> 1.0... That was definately more elegant than my solution
