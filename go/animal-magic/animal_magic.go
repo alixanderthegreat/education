@@ -9,7 +9,14 @@ func RollADie() int {
 
 // GenerateWandEnergy returns a random float64 f with 0.0 <= f < 12.0.
 func GenerateWandEnergy() float64 {
-	panic("Please implement the GenerateWandEnergy function")
+	for {
+		// https://pkg.go.dev/math/rand#NormFloat64
+		var desiredStdDev, desiredMean, r float64 = 3.6, 4.2, rand.Float64()
+		r = r * desiredStdDev * desiredMean
+		if r > 0 && r < 12.0 {
+			return r
+		}
+	}
 }
 
 // ShuffleAnimals returns a slice with all eight animal strings in random order.
