@@ -7,7 +7,10 @@ func PreparationTime(layers []string, time int) int {
 	return 0
 }
 
-// TODO: define the 'Quantities()' function
+// Quantities returns quantities of noodles & sauce needed
+func Quantities(layers []string) (int, float64) {
+	return 0, 0.0
+}
 
 // TODO: define the 'AddSecretIngredient()' function
 
