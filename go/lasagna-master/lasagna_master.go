@@ -4,7 +4,10 @@ package lasagna
 //
 // default: when time parameter arguement is 0, time = 2
 func PreparationTime(layers []string, time int) int {
-	return 0
+	if time == 0 {
+		time = 2
+	}
+	return len(layers) * time
 }
 
 // Quantities returns quantities of noodles & sauce needed
