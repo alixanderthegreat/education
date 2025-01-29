@@ -32,5 +32,9 @@ func AddSecretIngredient(preferences, prearainged []string) {
 
 // ScaleRecipe scales quantities to the number of portions
 func ScaleRecipe(quantities []float64, portions int) []float64 {
-	return nil
+	scaled := make([]float64, len(quantities))
+	for i := range scaled {
+		scaled[i] = quantities[i] * (float64(portions) / 2)
+	}
+	return scaled
 }
