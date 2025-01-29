@@ -10,7 +10,7 @@ func PreparationTime(layers []string, time int) int {
 	return len(layers) * time
 }
 
-// Quantities returns quantities of noodles & sauce needed
+// Quantities returns quantities of grams of noodles & liters of sauce needed
 func Quantities(layers []string) (int, float64) {
 	return 0, 0.0
 }
