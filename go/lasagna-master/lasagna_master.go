@@ -25,8 +25,9 @@ func Quantities(layers []string) (int, float64) {
 		float64(sauce) * 0.2 // 0.2ltr for each layer of sauce
 }
 
-// AddSecretIngredient take uncommon item from preferences and modifies prearainged
+// AddSecretIngredient replaces the last prearrainged with the last preference
 func AddSecretIngredient(preferences, prearainged []string) {
+	prearainged[len(prearainged)-1] = preferences[len(preferences)-1]
 }
 
 // ScaleRecipe scales quantities to the number of portions
