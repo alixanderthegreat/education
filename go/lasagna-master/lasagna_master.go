@@ -12,7 +12,9 @@ func Quantities(layers []string) (int, float64) {
 	return 0, 0.0
 }
 
-// TODO: define the 'AddSecretIngredient()' function
+// AddSecretIngredient take uncommon item from preferences and modifies prearainged
+func AddSecretIngredient(preferences, prearainged []string) {
+}
 
 // TODO: define the 'ScaleRecipe()' function
 
