@@ -21,8 +21,8 @@ func Quantities(layers []string) (int, float64) {
 			sauce++
 		}
 	}
-	return noodles * 50,
-		float64(sauce) * 0.2
+	return noodles * 50, // 50g for each layer of noodles
+		float64(sauce) * 0.2 // 0.2ltr for each layer of sauce
 }
 
 // AddSecretIngredient take uncommon item from preferences and modifies prearainged
