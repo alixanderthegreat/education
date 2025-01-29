@@ -16,7 +16,10 @@ func Quantities(layers []string) (int, float64) {
 func AddSecretIngredient(preferences, prearainged []string) {
 }
 
-// TODO: define the 'ScaleRecipe()' function
+// ScaleRecipe scales quantities to the number of portions
+func ScaleRecipe(quantities []float64, portions int) []float64 {
+	return nil
+}
 
 // Your first steps could be to read through the tasks, and create
 // these functions with their correct parameter lists and return types.
