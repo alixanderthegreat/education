@@ -12,7 +12,17 @@ func PreparationTime(layers []string, time int) int {
 
 // Quantities returns quantities of grams of noodles & liters of sauce needed
 func Quantities(layers []string) (int, float64) {
-	return 0, 0.0
+	var noodles, sauce int
+	for _, layer := range layers {
+		switch {
+		case layer == "noodles":
+			noodles++
+		case layer == "sauce":
+			sauce++
+		}
+	}
+	return noodles * 50,
+		float64(sauce) * 0.2
 }
 
 // AddSecretIngredient take uncommon item from preferences and modifies prearainged
