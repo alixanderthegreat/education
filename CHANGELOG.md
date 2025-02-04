@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-01-29
+## [UNREALEASED] - 2024-02-04
 ### Added
 - README.md
 - CHANGELOG.md
@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `animal-magic/`
         - `bird-watcher/`
         - `lasagna-master`
+        - `interest-is-interesting/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
