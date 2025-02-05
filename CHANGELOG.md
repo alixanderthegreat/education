@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `bird-watcher/`
         - `lasagna-master`
         - `interest-is-interesting/`
+        - `booking-up-for-beauty/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
