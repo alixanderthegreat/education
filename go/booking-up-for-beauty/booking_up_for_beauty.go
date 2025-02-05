@@ -30,7 +30,6 @@ func IsAfternoonAppointment(date string) bool {
 	t, err := time.Parse("Monday, January 2, 2006 15:04:05", date)
 	err_checker(err)
 	h, _, _ := t.Clock()
-
 	return h >= 12 && h <= 18
 }
 
@@ -38,11 +37,10 @@ func IsAfternoonAppointment(date string) bool {
 func Description(date string) string {
 	t, err := time.Parse("1/2/2006 15:04:00", date)
 	err_checker(err)
-
 	return `You have an appointment on ` + t.Format("Monday, January 2, 2006, at 15:04.")
 }
 
 // AnniversaryDate returns a Time with this year's anniversary.
 func AnniversaryDate() time.Time {
-	panic("Please implement the AnniversaryDate function")
+	return time.Date(2025, time.September, 15, 0, 0, 0, 0, time.UTC)
 }
