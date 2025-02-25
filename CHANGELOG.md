@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-02-14
+## [UNREALEASED] - 2024-02-25
 ### Added
 - README.md
 - CHANGELOG.md
@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `interest-is-interesting/`
         - `booking-up-for-beauty/`
         - `gross-store/`
+        - `election-day/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
