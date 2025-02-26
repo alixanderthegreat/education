@@ -2,8 +2,8 @@ package logs
 
 // Application identifies the application emitting the given log.
 func Application(log string) string {
-	for _, that := range log {
-		switch that {
+	for _, r := range log {
+		switch r {
 		case 10071:
 			return "recommendation"
 		case 128269:
@@ -18,7 +18,14 @@ func Application(log string) string {
 // Replace replaces all occurrences of old with new, returning the modified log
 // to the caller.
 func Replace(log string, oldRune, newRune rune) string {
-	panic("Please implement the Replace() function")
+	var new string
+	for _, r := range log {
+		if r == oldRune {
+			r = newRune
+		}
+		new += string(r)
+	}
+	return new
 }
 
 // WithinLimit determines whether or not the number of characters in log is
