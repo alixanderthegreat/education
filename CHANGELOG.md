@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - README.md
 - CHANGELOG.md
-- Exercises by [exercism](https://exercism.org); note: _each folder includes `notes.md` which contain original commentary and analysis._
+- Exercises by [exercism](https://exercism.org); note: _many folders include `notes.md`, which contain original commentary and analysis._
     - `go`:
         - `hello-world/`
         - `lasagna/`
