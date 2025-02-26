@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `booking-up-for-beauty/`
         - `gross-store/`
         - `election-day/`
+        - `chessboard/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
