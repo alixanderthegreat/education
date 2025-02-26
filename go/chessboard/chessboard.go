@@ -4,6 +4,7 @@ package chessboard
 type File []bool
 
 // Declare a type named Chessboard which contains a map of eight Files, accessed with keys from "A" to "H"
+type Chessboard map[string]File
 
 // CountInFile returns how many squares are occupied in the chessboard,
 // within the given file.
