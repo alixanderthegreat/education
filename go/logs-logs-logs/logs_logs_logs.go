@@ -2,7 +2,17 @@ package logs
 
 // Application identifies the application emitting the given log.
 func Application(log string) string {
-	panic("Please implement the Application() function")
+	for _, that := range log {
+		switch that {
+		case 10071:
+			return "recommendation"
+		case 128269:
+			return "search"
+		case 9728:
+			return "weather"
+		}
+	}
+	return "default"
 }
 
 // Replace replaces all occurrences of old with new, returning the modified log
