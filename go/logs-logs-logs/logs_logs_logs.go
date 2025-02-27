@@ -4,11 +4,11 @@ package logs
 func Application(log string) string {
 	for _, r := range log {
 		switch r {
-		case 10071:
+		case '❗':
 			return "recommendation"
-		case 128269:
+		case '🔍':
 			return "search"
-		case 9728:
+		case '☀':
 			return "weather"
 		}
 	}
@@ -31,5 +31,5 @@ func Replace(log string, oldRune, newRune rune) string {
 // WithinLimit determines whether or not the number of characters in log is
 // within the limit.
 func WithinLimit(log string, limit int) bool {
-	panic("Please implement the WithinLimit() function")
+	return (len([]int32(log)) <= limit)
 }
