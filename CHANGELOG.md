@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-02-26
+## [UNREALEASED] - 2024-03-08
 ### Added
 - README.md
 - CHANGELOG.md
@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `election-day/`
         - `chessboard/`
         - `logs-logs-logs/`
+        - `elons-cars/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
