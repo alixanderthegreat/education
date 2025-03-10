@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `logs-logs-logs/`
         - `elons-cars/`
         - `airport-robot/`
+        - `parsing-log-files/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
