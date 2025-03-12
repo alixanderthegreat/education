@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-03-11
+## [UNREALEASED] - 2024-03-12
 ### Added
 - README.md
 - CHANGELOG.md
@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `parsing-log-files/`
         - `census/`
         - `meteorology/`
+        - `sorting-room/`
     - `ruby`: 
         - `hello-world/`
         - `lasagna/`
