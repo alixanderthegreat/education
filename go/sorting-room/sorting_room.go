@@ -11,7 +11,7 @@ type NumberBox interface {
 
 // DescribeNumberBox should return a string describing the NumberBox.
 func DescribeNumberBox(nb NumberBox) string {
-	panic("Please implement DescribeNumberBox")
+	return fmt.Sprintf("This is a box containing the number %.1f", float64(NumberBox.Number(nb)))
 }
 
 type FancyNumber struct {
