@@ -2,7 +2,7 @@ package sorting
 
 // DescribeNumber should return a string describing the number.
 func DescribeNumber(f float64) string {
-	panic("Please implement DescribeNumber")
+	return fmt.Sprintf("This is the number %.1f", f)
 }
 
 type NumberBox interface {
