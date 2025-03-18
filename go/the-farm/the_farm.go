@@ -6,16 +6,16 @@ import (
 )
 
 func DivideFood(f FodderCalculator, i int) (float64, error) {
-	this, err := f.FodderAmount(i)
+	a, err := f.FodderAmount(i)
 	if err != nil {
 		return 0.0, err
 	}
-	another, err := f.FatteningFactor()
+	r, err := f.FatteningFactor()
 	if err != nil {
 		return 0.0, err
 	}
-	what := (this / float64(i)) * float64(another)
-	return what, nil
+	p := (a / float64(i)) * float64(r)
+	return p, nil
 }
 func ValidateInputAndDivideFood(f FodderCalculator, i int) (float64, error) {
 	if i <= 0 {
