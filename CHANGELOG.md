@@ -39,6 +39,7 @@ note: _many folders include `notes.md`, which contain original commentary and an
     - `census/`
     - `meteorology/`
     - `sorting-room/`
+    - `the-farm/`
 - `ruby`: 
     - `hello-world/`
     - `lasagna/`
