@@ -1,5 +1,10 @@
 package sorting
 
+import (
+	"fmt"
+	"strconv"
+)
+
 // DescribeNumber should return a string describing the number.
 func DescribeNumber(f float64) string {
 	return fmt.Sprintf("This is the number %.1f", f)
