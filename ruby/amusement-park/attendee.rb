@@ -1,6 +1,6 @@
 class Attendee
   def initialize(height)
-    raise 'Implement the Attendee#initialize method'
+   @height = height
   end
 
   def height
