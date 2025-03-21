@@ -4,7 +4,7 @@ class Attendee
   end
 
   def height
-    raise 'Implement the Attendee#height method'
+    @height
   end
 
   def pass_id
