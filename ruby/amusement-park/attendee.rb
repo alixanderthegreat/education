@@ -16,6 +16,6 @@ class Attendee
   end
 
   def revoke_pass!
-    raise 'Implement the Attendee#revoke_pass! method'
+    @pass_id = nil
   end
 end
