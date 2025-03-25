@@ -2,7 +2,7 @@ module Acronym
   class << self
     def abbreviate(input)
       result = ""
-      input.strip().split().each() do |part|
+      input.split().each() do |part|
         if part.include?("-")
           part.strip().split("-") do |sub|
             result += sub[0] 
