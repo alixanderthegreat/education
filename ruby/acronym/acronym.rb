@@ -2,13 +2,13 @@ module Acronym
   class << self
     def abbreviate(input)
       result = ""
-      first_letter = 0
       input.strip().split().each() do |part|
         if part.include?("-")
           part.strip().split("-") do |sub|
-            result += sub[first_letter] 
+            result += sub[0] 
           end
-          result += part[first_letter]
+        else 
+          result += part[0]
         end
       end
       result.upcase!()
