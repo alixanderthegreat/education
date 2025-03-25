@@ -14,7 +14,7 @@ module Acronym
         # Handle the case when a hyphen `-`` is used 
         if part.include?("-")
 
-          # Strip and split the part and split it into sub strings
+          # Strip and split the part into sub strings
           part.strip().split("-") do |sub|
 
             # Concatenate the first letter of the each sub string to the result
