@@ -11,7 +11,7 @@ module Complement
           else letter
         end
       end
-      result.join()
+      return result.join()
     end
   end
 end
