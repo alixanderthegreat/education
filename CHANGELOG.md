@@ -53,3 +53,4 @@ note: _many folders include `notes.md`, which contain original commentary and an
 	- `rna-transcription`
 	- `pangram/`
 	- `isbn-verifier/`
+	- `diamond/`
