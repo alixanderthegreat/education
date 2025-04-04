@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-04-02
+## [UNREALEASED] - 2024-04-04
 ### Added
 - README.md
 - CHANGELOG.md
@@ -55,3 +55,4 @@ note: _many folders include `notes.md`, which contain original commentary and an
 	- `isbn-verifier/`
 	- `diamond/`
 	- `simple-calculator/`
+	- `assembly_line/`
