@@ -15,7 +15,8 @@ class AssemblyLine
     return result
   end
 
-  def working_items_per_minute
-    raise 'Please implement the AssemblyLine#working_items_per_minute method'
+  def working_items_per_minute()
+    result = (production_rate_per_hour() / 60).floor()
+    return result
   end
 end
