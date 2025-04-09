@@ -56,3 +56,4 @@ note: _many folders include `notes.md`, which contain original commentary and an
 	- `diamond/`
 	- `simple-calculator/`
 	- `assembly_line/`
+	- `rotational_cipher/`
