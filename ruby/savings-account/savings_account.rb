@@ -19,7 +19,8 @@ module SavingsAccount
   end
 
   def self.annual_balance_update(balance)
-    raise 'Please implement the SavingsAccount.annual_balance_update method'
+    result = (balance * (interest_rate(balance)/100))
+    return balance + result
   end
 
   def self.years_before_desired_balance(current_balance, desired_balance)
