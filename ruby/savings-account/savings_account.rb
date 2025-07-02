@@ -24,6 +24,11 @@ module SavingsAccount
   end
 
   def self.years_before_desired_balance(current_balance, desired_balance)
-    raise 'Please implement the SavingsAccount.years_before_desired_balance method'
+    count = 0
+    until current_balance > desired_balance
+      count += 1
+      current_balance = annual_balance_update(current_balance)
+    end
+    return count
   end
 end
