@@ -5,7 +5,16 @@ module Blackjack
   end
 
   def self.card_range(card1, card2)
-    raise "Please implement the Blackjack.card_range method"
+    low = (4..11)
+    mid = (12..16)
+    high = (17..20)
+    bj = 21
+    case parse_card(card1) + parse_card(card2)
+    when low then 'low'
+    when mid then 'mid'
+    when high then 'high'
+    when bj then 'blackjack'
+    end
   end
 
   def self.first_turn(card1, card2, dealer_card)
