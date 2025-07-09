@@ -18,6 +18,16 @@ module Blackjack
   end
 
   def self.first_turn(card1, card2, dealer_card)
-    raise "Please implement the Blackjack.first_turn method"
+    c1 = parse_card(card1)
+    c2 = parse_card(card2)
+    d1 = parse_card(dealer_card)
+    cr = card_range(card1, card2)
+    case
+    when (c1 == c2 && c1 == 11) then "P" 
+    when cr == "blackjack" then (10..11) === d1  ? "S" : "W"
+    when cr == "high" then "S"
+    when cr == "mid" then d1 >= 7 ?  "H" : "S" 
+    when cr == "low" then "H"
+    end
   end
 end
