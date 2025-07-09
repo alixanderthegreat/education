@@ -1,6 +1,7 @@
 module Blackjack
   def self.parse_card(card)
-    raise "Please implement the Blackjack.parse_card method"
+    ["joker", "one", "two", "three", "four", "five",
+    "six", "seven", "eight", "nine", "ten","ace"].index(card) || 10 # jack, queen and king
   end
 
   def self.card_range(card1, card2)
