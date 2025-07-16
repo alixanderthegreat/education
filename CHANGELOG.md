@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [UNREALEASED] - 2024-04-09
+## [UNREALEASED] - 2024-07-17
 ### Added
 - README.md
 - CHANGELOG.md
@@ -57,4 +57,11 @@ note: _many folders include `notes.md`, which contain original commentary and an
 	- `simple-calculator/`
 	- `assembly_line/`
 	- `rotational_cipher/`
+    - `savings_account/`
+    - `port_of_palermo/`
+    - `chess_game/`
+    - `blackjack/`
+    - `bird_count/`
+    - `boutique_inventory/`
+    - `boutique_inventory_improvements/`
     - `house/`
