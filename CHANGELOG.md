@@ -40,6 +40,13 @@ note: _many folders include `notes.md`, which contain original commentary and an
     - `meteorology/`
     - `sorting-room/`
     - `the-farm/`
+- `python`:
+    - `hello-world/`
+    - `guidos-gorgeous-lasagna/`
+    - `ghost-gobble-arcade-game/`
+    - `currency-exchange/`
+    - `meltdown-mitigation/`
+    - `black-jack/`
 - `ruby`: 
     - `hello-world/`
     - `lasagna/`
